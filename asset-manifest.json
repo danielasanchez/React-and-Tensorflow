@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-and-Tensorflow/static/css/main.3605943b.chunk.css",
+    "main.js": "/React-and-Tensorflow/static/js/main.1d0d1d16.chunk.js",
+    "main.js.map": "/React-and-Tensorflow/static/js/main.1d0d1d16.chunk.js.map",
+    "runtime-main.js": "/React-and-Tensorflow/static/js/runtime-main.5791c5e2.js",
+    "runtime-main.js.map": "/React-and-Tensorflow/static/js/runtime-main.5791c5e2.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/React-and-Tensorflow/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.534133ed.chunk.js": "/React-and-Tensorflow/static/js/2.534133ed.chunk.js",
+    "static/js/2.534133ed.chunk.js.map": "/React-and-Tensorflow/static/js/2.534133ed.chunk.js.map",
+    "index.html": "/React-and-Tensorflow/index.html",
+    "precache-manifest.5d403bfea436b122f7f9bbb3100cbfef.js": "/React-and-Tensorflow/precache-manifest.5d403bfea436b122f7f9bbb3100cbfef.js",
+    "service-worker.js": "/React-and-Tensorflow/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/React-and-Tensorflow/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.3605943b.chunk.css.map": "/React-and-Tensorflow/static/css/main.3605943b.chunk.css.map",
+    "static/js/2.534133ed.chunk.js.LICENSE.txt": "/React-and-Tensorflow/static/js/2.534133ed.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/React-and-Tensorflow/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5791c5e2.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.534133ed.chunk.js",
+    "static/css/main.3605943b.chunk.css",
+    "static/js/main.1d0d1d16.chunk.js"
+  ]
+}
