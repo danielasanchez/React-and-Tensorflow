@@ -3,7 +3,7 @@ You can try this project [here](https://danielasanchez.github.io/React-and-Tenso
 
 This project is based on https://github.com/jonnyk20/dogscope-react
 
-React Js and TensorFlow are applied to dog breed classification and remember... 
+React Js and TensorFlow are applied for dog breed classification and remember... 
 ## adopt, don't shop.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
