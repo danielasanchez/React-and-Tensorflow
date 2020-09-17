@@ -16,8 +16,11 @@ const machine = {
     complete: { on: { next: "modelReady" }, showImage: true, showResults: true }
   }
 };
-const reducer = (state, event) =>
-    machine.states[state].on[event] || machine.initial;
+const reducer = (state, action) => {
+  console.log(state);
+  console.log(action);
+  return machine.states[state].on[action]
+}; 
 
 function App() {
   const [classificationResults, setResults] = useState([]);
@@ -26,7 +29,7 @@ function App() {
   const imageRef = useRef();
   const inputRef = useRef();
   
-  const [appState, dispatch] = useReducer(reducer, machine.initial);
+  const [state, dispatch] = useReducer(reducer, machine.initial);
   
   const next = () => dispatch("next");
 
@@ -68,7 +71,7 @@ function App() {
     complete: { action: reset, text: "Reset" }
   };
 
-  const { showImage=false, showResults=false } = machine.states[appState];
+  const { showImage=false, showResults=false } = machine.states[state];
   
   const formatResult=(b,index)=>(
     <tr key={index}>
@@ -106,8 +109,8 @@ function App() {
             onChange={handleUpload}
           />
 
-          <Button variant="secondary" size="lg"  onClick={actionButton[appState].action}>
-            {actionButton[appState].text}
+          <Button variant="secondary" size="lg"  onClick={actionButton[state].action}>
+            {actionButton[state].text}
           </Button>
         </div>
         <div style={{ width: '18rem' }}>
