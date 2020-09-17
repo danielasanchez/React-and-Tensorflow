@@ -19,7 +19,7 @@ const machine = {
 const reducer = (state, action) => {
   console.log(state);
   console.log(action);
-  return machine.states[state].on[action]
+  return machine.states[state].on[action];
 }; 
 
 function App() {
